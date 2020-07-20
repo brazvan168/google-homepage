@@ -34,8 +34,42 @@ body {
 #search-bar {
   display: block;
   margin: 10px auto;
+  border-radius: 24px;
+  padding: 10px;
+  border: 1px solid #dfe1e5;
+  width: 480px;
+  height: 34px;
+  line-height: 34px;
+  font-size: 16px;
 }
 
+#main-btn-container {
+  display: inline-block;
+  text-align: center;
+  margin-top: 16px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+.main-btn {
+  background-color: #f2f2f2;
+  border: none;
+  color: #5f6368;
+  padding: 4px 16px;
+  margin: 4px;
+  border-radius: 4px;
+  font-size: 14px;
+  line-height: 27px;
+}
+#main-text {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  font-size: small;
+}
+#main-text a {
+  padding: 4px;
+  color: blue;
+}
 li {
   display: inline;
   font-family: aria, sans-serif;
