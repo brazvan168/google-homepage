@@ -35,12 +35,19 @@ body {
   display: block;
   margin: 10px auto;
   border-radius: 24px;
-  padding: 10px;
+  padding: 7px 30px 7px 30px;
   border: 1px solid #dfe1e5;
   width: 480px;
   height: 34px;
   line-height: 34px;
   font-size: 16px;
+}
+#search-bar:hover {
+  box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+  border-color: rgba(223, 225, 229, 0);
+}
+#search-bar:focus {
+  outline: none;
 }
 
 #main-btn-container {
@@ -52,6 +59,8 @@ body {
 }
 .main-btn {
   background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
   border: none;
   color: #5f6368;
   padding: 4px 16px;
@@ -59,6 +68,13 @@ body {
   border-radius: 4px;
   font-size: 14px;
   line-height: 27px;
+}
+.main-btn:hover {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  background-image: -webkit-linear-gradient(top, #f8f8f8, #f1f1f1);
+  background-color: #f8f8f8;
+  border: 1px solid #c6c6c6;
+  color: #222;
 }
 #main-text {
   display: inline-block;
@@ -70,6 +86,7 @@ body {
   padding: 4px;
   color: blue;
 }
+
 li {
   display: inline;
   font-family: aria, sans-serif;
@@ -79,6 +96,9 @@ li {
 a {
   padding: 10px;
   text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
 }
 
 #apps-logo {
